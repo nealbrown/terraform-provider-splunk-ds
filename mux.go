@@ -2,7 +2,7 @@ package provider
 
 import (
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	splunk "github.com/splunk/terraform-provider-splunk/splunk"
+	splunk "github.com/nealbrown/terraform-provider-splunk/splunk"
 )
 
 func NewMuxProvider(version string) func() providerserver.Provider {
