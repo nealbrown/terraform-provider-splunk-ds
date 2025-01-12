@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/schema"
-	splunk "github.com/splunk/terraform-provider-splunk/splunk"
+	splunk "github.com/nealbrown/terraform-provider-splunk/splunk"
 )
 
 // Ensure the implementation satisfies the expected interfaces.
